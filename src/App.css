@@ -1,0 +1,46 @@
+body {
+  background-color: #fafafa;
+}
+
+.navigationBar {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 5.938rem;
+  margin: 0 0 2.375rem;
+  padding: 1.438rem 6.188rem 1.688rem 6.25rem;
+  background-color: white;
+}
+
+#nav-item {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+#nav-item li:not(:last-child) {
+  margin-right: 1rem;
+}
+
+#nav-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  color: #0290ff;
+}
+
+.homePageDiv {
+  margin: 2rem;
+}
+
+.bookListDiv {
+  border: 1px solid green;
+}
+
+.individualBookDiv {
+  border: 1px solid blue;
+}
