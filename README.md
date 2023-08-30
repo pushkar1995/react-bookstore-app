@@ -25,7 +25,7 @@
 <br>
 
 <br>
-"Bookstore" is a website about books displaying its names, authors, adding and deleting them of the list. It is a Single Page App (SPA).
+"Bookstore" is a website about books displaying its names, authors, adding and deleting them of the list. It is a Single Page App (SPA) created using React and Redux.
 <br>
 <br>
 
@@ -33,7 +33,7 @@
 
 <br>
 
-  <summary>Page was built using React</summary>
+  <summary>Page was built using React and Redux</summary>
 
 <br>
 
@@ -41,7 +41,7 @@
 
 <br>
 
-- **Project is created using React**
+- **Project is created using React and Redux**
 - **Easy to reuse components for future projects**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -66,7 +66,7 @@ To get a local copy up and running, follow these steps:
 - Choose a directory
 - Open a Terminal
 - write git clone https://github.com/pushkar1995/react-bookstore-app
-- get into to directory "bookstore-app"
+- get into to directory "react-bookstore-app"
 - write: npm install
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
