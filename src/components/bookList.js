@@ -12,7 +12,7 @@ const BookList = () => {
   return (
     <section className="homePageDiv">
       <div className="bookListDiv">
-        <h1 className="title">Books</h1>
+        <h1 className="title">BOOKS</h1>
         <ul>
           {books.map((book) => (
             <li key={book.itemId} className="individualBookLiItem">
