@@ -37,7 +37,7 @@ body {
   align-items: center;
   gap: 4rem;
   margin-top: -50px;
-  width: 800px;
+  width: 300px;
 }
 
 .midRight {
@@ -152,7 +152,7 @@ body {
 .h-divider {
   border-left: 2px solid lightgrey;
   height: 70px;
-  margin-right: 200px;
+  margin-right: 0;
   margin-bottom: 90px;
   position: absolute;
 }
@@ -160,7 +160,7 @@ body {
 .deepRight {
   margin-left: 10px;
   margin-top: -120px;
-  width: 550px;
+  width: 500px;
 }
 
 .updateProgressButton {
