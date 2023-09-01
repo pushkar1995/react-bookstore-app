@@ -23,6 +23,7 @@ const BookList = () => {
             <p className="auth">{author}</p>
             <div className="leftButton">
               <button className="leftButton" type="button">Comment</button>
+              <div className="shortHoDivider1" />
               <button
                 className="leftButton"
                 type="button"
@@ -30,6 +31,7 @@ const BookList = () => {
               >
                 Remove
               </button>
+              <div className="shortHooDivider2" />
               <button className="leftButton" type="button">Edit</button>
             </div>
           </div>

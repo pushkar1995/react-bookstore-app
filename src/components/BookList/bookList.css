@@ -113,6 +113,20 @@ body {
   color: #4386bf;
 }
 
+.shortHoDivider1 {
+  border-left: 2px solid lightgrey;
+  height: 20px;
+  position: absolute;
+  margin-left: 75px;
+}
+
+.shortHooDivider2 {
+  border-left: 2px solid lightgrey;
+  height: 20px;
+  position: absolute;
+  margin-left: 150px;
+}
+
 .cat {
   margin: 0 2.438rem 0 0;
   opacity: 0.5;
@@ -133,12 +147,6 @@ body {
 .auth {
   color: #4386bf;
   margin-bottom: 20px;
-}
-
-.divider-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .h-divider {
