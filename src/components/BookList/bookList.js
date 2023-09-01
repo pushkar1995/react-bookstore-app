@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react';
-// import './bookList.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { getBookItems, removeBook } from '../../redux/books/booksSlice';
 
-const BookItems = () => {
+const BookList = () => {
   const dispatch = useDispatch();
   const { books, isLoading, error } = useSelector((state) => state.books);
 
@@ -15,24 +14,22 @@ const BookItems = () => {
     const { category, title, author } = book;
 
     return (
-      <>
-        <div key={itemId} className="containerRender" style={{ display: 'flex' }}>
-          <div className="renderLeft">
-            <h3>{title}</h3>
-            <p>{category}</p>
-            <p>{author}</p>
-            <div className="leftButton">
-              <button
-                className="leftButton"
-                type="button"
-                onClick={() => dispatch(removeBook(itemId))}
-              >
-                Remove
-              </button>
-            </div>
+      <div key={itemId} className="containerRender" style={{ display: 'flex' }}>
+        <div className="renderLeft">
+          <h3>{title}</h3>
+          <p>{category}</p>
+          <p>{author}</p>
+          <div className="leftButton">
+            <button
+              className="leftButton"
+              type="button"
+              onClick={() => dispatch(removeBook(itemId))}
+            >
+              Remove
+            </button>
           </div>
         </div>
-      </>
+      </div>
     );
   };
 
@@ -55,4 +52,4 @@ const BookItems = () => {
   );
 };
 
-export default BookItems;
+export default BookList;

@@ -58,7 +58,6 @@ const booksSlice = createSlice({
         state.error = null;
       })
       .addCase(getBookItems.fulfilled, (state, action) => {
-        console.log(action);
         state.isLoading = false;
         state.books = action.payload;
       })
