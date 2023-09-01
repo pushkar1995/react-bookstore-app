@@ -4,11 +4,13 @@ import { Link } from 'react-router-dom';
 const Navigation = () => (
   <nav className="navigationBar">
     <div>
-      <h1 className="logo">Bookstore CMS</h1>
+      <Link to="/">
+        <h1 className="logo">Bookstore CMS</h1>
+      </Link>
     </div>
     <ul id="nav-item">
       <li>
-        <Link to="/">BOOKS</Link>
+        <Link to="/bookPage">BOOKS</Link>
       </li>
       <li>|</li>
       <li>

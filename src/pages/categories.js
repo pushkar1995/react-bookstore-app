@@ -1,9 +1,9 @@
-import React from 'react';
-
-const Categories = () => (
-  <div className="categoriesDiv">
-    <h3>Categories</h3>
-  </div>
-);
+function Categories() {
+  return (
+    <div>
+      <h2>Categories Page</h2>
+    </div>
+  );
+}
 
 export default Categories;
