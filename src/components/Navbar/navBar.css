@@ -1,10 +1,14 @@
+.navbar-container {
+  margin-bottom: 30px;
+}
+
 .navigationBar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: auto;
-  height: 5.938rem;
-  padding: 1.438rem 6.188rem 1.688rem 5.25rem;
+  height: 3.938rem;
+  padding: 0.138rem 1.188rem 0.838rem 5.25rem;
   background-color: white;
 }
 
@@ -52,14 +56,20 @@
 
 .icon {
   border: solid 1px #e8e8e8;
-  padding: 0.875rem;
+  padding: 0.875rem 0.875rem 0.875rem 0.875rem;
   border-radius: 100%;
   height: 1.8rem;
   width: 1.8rem;
+  margin-bottom: 15px;
+  margin-right: 40px;
 }
 
 .icon > img {
   padding: -0.2rem;
   height: 1.8rem;
   width: 1.8rem;
+}
+
+.navBar-Bottom {
+  border-bottom: 1px solid transparent;
 }

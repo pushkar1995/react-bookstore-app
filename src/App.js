@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './components/Navbar/navBar';
 import BookPage from './pages/bookPage';
 import Categories from './pages/categories';
-import Books from './pages/books';
+import Books from './pages/books/books';
 import './App.css';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="wrapper">
       <Router>
         <Navigation />
-        <div>
+        <div className="body-wrapper">
           <Routes>
             <Route path="/" element={<Books />} />
             <Route path="/bookPage" element={<BookPage />} />

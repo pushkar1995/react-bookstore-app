@@ -6,6 +6,13 @@ body {
   width: 100%;
 }
 
+.booklist-container {
+  border: 0.1px solid transparent;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 .Renderingcontainer {
   display: flex;
   flex-direction: row;
@@ -14,22 +21,21 @@ body {
   border-radius: 5px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  margin-left: 80px;
 }
 
 .renderLeft {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin: 30px;
 }
 
 .renderRight {
   display: flex;
+  justify-content: center;
   margin-left: 400px;
   margin-bottom: 40px;
   align-items: center;
   gap: 4rem;
-  justify-content: space-between;
   margin-top: -50px;
   width: 800px;
 }
@@ -95,27 +101,8 @@ body {
   color: var(--black-two);
 }
 
-.deepRight {
-  margin-left: 50px;
-  margin-top: -120px;
-  width: 400px;
-}
-
 .middle {
   gap: 40px;
-}
-
-.blue {
-  background-color: #0290ff;
-  height: 2.063rem;
-  width: 11.5rem;
-  border-radius: 3px;
-  color: #fff;
-  font-family: 'Roboto Slab', serif;
-  font-size: 0.813rem;
-  letter-spacing: 0.5px;
-  align-items: center;
-  border: 1px transparent;
 }
 
 .leftButton {
@@ -148,25 +135,44 @@ body {
   margin-bottom: 20px;
 }
 
-.chapter {
-  width: 4.688rem;
-  height: 1.313rem;
-  margin: 0.438rem 6.813rem 0.25rem 3.688rem;
+.divider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-divider {
+  border-left: 2px solid lightgrey;
+  height: 70px;
+  margin-right: 200px;
+  margin-bottom: 90px;
+  position: absolute;
+}
+
+.deepRight {
+  margin-left: 10px;
+  margin-top: -120px;
+  width: 550px;
+}
+
+.updateProgressButton {
+  background-color: #0290ff;
+  height: 2.063rem;
+  width: 11.5rem;
+  border-radius: 3px;
+  color: #fff;
   font-family: 'Roboto Slab', serif;
-  font-size: 1rem;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.4px;
-  color: #121212;
+  font-size: 0.813rem;
+  letter-spacing: 0.5px;
+  align-items: center;
+  border: 1px transparent;
 }
 
 .current {
   color: #121212;
   width: 7.875rem;
   height: 1.125rem;
-  margin: 0.063rem 3.625rem 0 3.688rem;
+  margin: 0.063rem 3.625rem 0 0.101rem;
   opacity: 0.5;
   font-family: 'Roboto Slab', serif;
   font-size: 0.813rem;
@@ -175,4 +181,18 @@ body {
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
+}
+
+.chapter {
+  width: 4.688rem;
+  height: 1.313rem;
+  margin: 0.438rem 6.813rem 1.25rem 0.101rem;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #121212;
 }

@@ -15,8 +15,8 @@ const BookList = () => {
     const { category, title, author } = book;
 
     return (
-      <>
-        <div key={itemId} className="Renderingcontainer" style={{ display: 'flex' }}>
+      <div className="booklist-container">
+        <div key={itemId} className="Renderingcontainer">
           <div className="renderLeft">
             <p className="cat">{category}</p>
             <h3 className="tit">{title}</h3>
@@ -44,13 +44,14 @@ const BookList = () => {
               <h4 className="completed">Completed</h4>
             </div>
           </div>
+          <div className="h-divider" />
           <div className="deepRight">
             <p className="current">Current Chapter</p>
             <p className="chapter">Chapter 15 </p>
-            <button className="blue" type="button">UPDATE PROGRESS</button>
+            <button className="updateProgressButton" type="button">UPDATE PROGRESS</button>
           </div>
         </div>
-      </>
+      </div>
     );
   };
 
