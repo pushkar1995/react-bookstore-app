@@ -12,7 +12,7 @@ const Navigation = () => (
         <li className="books-nav-bar">
           <Link to="/bookPage">BOOKS</Link>
         </li>
-        <li>|</li>
+        {/* <li>|</li> */}
         <li className="cat-nav-bar">
           <Link to="/categories">CATEGORIES</Link>
         </li>

@@ -4,7 +4,7 @@
   align-items: center;
   width: auto;
   height: 5.938rem;
-  padding: 1.438rem 6.188rem 1.688rem 6.25rem;
+  padding: 1.438rem 6.188rem 1.688rem 5.25rem;
   background-color: white;
 }
 
@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2.3rem;
+  gap: 3.3rem;
 }
 
 #nav-item {
@@ -21,6 +21,7 @@
   padding: 0;
   margin: 0;
   align-items: center;
+  gap: 3.3rem;
 }
 
 #nav-item li:not(:last-child) {
