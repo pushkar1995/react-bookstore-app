@@ -1,11 +1,11 @@
-import React from 'react';
-import BookList from '../components/bookList';
-import BookForm from '../components/bookForm';
+import BookList from '../components/BookList/bookList';
+import BookForm from '../components/BookForm/bookForm';
 
-const BooksPage = () => (
+const Books = () => (
   <>
     <BookList />
     <BookForm />
   </>
 );
-export default BooksPage;
+
+export default Books;
