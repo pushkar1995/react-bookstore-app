@@ -38,11 +38,12 @@ const BookForm = () => {
 
   return (
     <div className="containerCreateBooks">
+      <h3 className="addTitle">ADD NEW BOOK</h3>
       <form>
-        <h3>ADD NEW BOOK</h3>
         <input
           type="text"
           name="title"
+          className="titleInputField"
           placeholder="Book Title"
           value={bookData.title}
           onChange={inputChangehandler}
@@ -50,6 +51,7 @@ const BookForm = () => {
         <input
           type="text"
           name="author"
+          className="authorInputField"
           placeholder="Book Author"
           value={bookData.author}
           onChange={inputChangehandler}
@@ -67,7 +69,7 @@ const BookForm = () => {
           <option value="PHILOSHOPY">PHILOSHOPY</option>
         </select>
         <button
-          className="addBook"
+          className="addBookButton"
           type="button"
           onClick={handleAddBook}
         >
